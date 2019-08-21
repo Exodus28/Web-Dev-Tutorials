@@ -1,0 +1,32 @@
+!
+!important
+
+bg
+background: ;
+
+bgi
+background-image: url();
+
+bgc
+background-color: #fff;
+
+bg+
+background: #fff url() 0 0 no-repeat;
+
+cll
+clear: left;
+
+clb
+clear: both;
+
+bxz
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+w
+width: ;
+
+h
+height: ;
+
