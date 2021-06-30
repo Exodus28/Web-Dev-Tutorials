@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!-- set up HTML doc/set file type -->
+<html> <!-- Root of HTML -->
+  <body> <!--container for all other elements of HTML -->
+    
+    <h1>Header 1</h1> <!-- Header tags & Paragraph tag -->
+    <h2 style="color:orange">Header 2</h2> <!-- colour style tag/attribute added within Header tag -->
+        <p style="font-family:courier">Paragraph</p> <!-- amend default font style -->
+        <p style="font-family:arial">Paragraph</p> 
+    <h3>Header 3</h3>
+    <h4 style="background-color:turquoise;">Header 4</h4> <!-- add a background colour to text -->
+    <h5>Header 5</h5> <!-- NOTE: semi-colons aren't required on single attributes though ARE for multiple
+                                 attributes - best practice would be to always insert the ';' semi-colon -->
+    <h6>Header 6</h6>
+    
+    <h1 style="color: orange; background-color: black; text-align: center">Header v1.1</h1>
+    <p>Paragraph 3</p> <!-- example of multiple styles on above header--> 
+    <p> I got <u>tags</u> <i>for <b>daysss</i></b> <del>and days</del> <sup>sup</sup><sub>sub</sub> </p> <!-- nesting tags within tags -->        
+  
+    <p> Testing web-link to <a href="https://www.aboutchrisg.com/">AboutChrisG.com </a> </p>
+    <p>    
+        Testing image and link to image 
+      <a href="https://www.aboutchrisg.com/profile"> <!-- add link, then add image -->
+      <img src="https://static.wixstatic.com/media/6e6664_e55c8b090f714ba7829b685c107b31ed~mv2.jpg/v1/fill/w_211,h_630,al_c,q_80,usm_0.66_1.00_0.01/20181003_171338.webp" 
+                height="300"> <!--If only width or height are used, image scales proportionately until second dimension is added -->
+        </a> <!-- close off link (containing image) -->
+    </p> 
+  
+    
+    <ul>  <!-- unordered list (bullet points) -->
+            <li>Milk</li>
+                <ol>                       <!-- example of nesting tables -->
+                    <li>Semi-Skimmed</li>
+                    <li>Lactose-Free</li>
+                </ol>
+            <li>Eggs</li>
+            <li>Cream</li>
+            <li>Cheese</li>
+            <li>Yoghurt</li>
+    </ul>
+    <ol>  <!-- ordered (or numbered) list -->
+            <li>Boil Kettle</li>
+            <li>Put teabag in cup</li>
+            <li>Pour hot water</li>
+            <li>Add milk and stir</li>
+            <li>Remove teabag</li>
+    </ol>
+    <dl>  <!-- Definition list -->
+            <dl>Item 1:</dl>
+              <dd>Item 1 Description</dd>
+            <dl>Item 2:</dl>
+              <dd>Item 2 Description</dd>
+            <dl>Item 3:</dl>
+              <dd>Item 4 Description</dd>
+
+  </dl>
+  </body>  <!-- end of HTML body -->
+</html>
