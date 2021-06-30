@@ -14,6 +14,6 @@
     
     <h1 style="color: orange; background-color: black; text-align: center">Header v1.1</h1>
     <p>Paragraph 3</p> <!-- example of multiple styles on above header--> 
-            
+    <p> I got <u>tags</u> <i>for <b>daysss</i></b> </p> <!-- nesting tags within tags -->        
   </body>  <!-- end of HTML body -->
 </html>
