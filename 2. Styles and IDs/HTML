@@ -7,7 +7,8 @@
     <h1> Yawn Hub </h1> 
     <p> The #1 place to go for absolutely no reason </p>
 
-    <p style="color: white; background-color: grey;"> Exhibit A </p>
+    <p style="color: white; background-color: grey; 
+              font-family: monospace"> Exhibit A </p>
     
     <!-- individual style changes can be made within HTML tag as above 
          without affecting default styling of CSS doc -->
