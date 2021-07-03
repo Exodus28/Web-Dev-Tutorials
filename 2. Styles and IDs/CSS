@@ -10,10 +10,10 @@ p{
 } /* id as below can be specified to differ from above defined styles */
 
 #altPara{
-  color: green; background-color: yellow; font-family: lucida; 
+  color: green; background-color: yellow; font-family: serif; 
   font-size: 20px;
 }
 
 #footer{
-  color: beige; background-color: purple;
+  color: beige; background-color: purple; font-family: sans-serif;
 }
