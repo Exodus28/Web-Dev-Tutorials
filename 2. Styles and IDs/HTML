@@ -16,7 +16,7 @@
     
     <h1> Yet another heading </h1>
     
-    <p id="altPara" </p> <!-- id can be called in CSS -->
+    <p id="altPara"> another example of ID </p> <!-- id can be called in CSS -->
     <h1 id="footer"> Thanks for stopping by, <br> come back soon </h>
     
   </body>
