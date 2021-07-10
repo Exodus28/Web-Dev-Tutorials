@@ -1,0 +1,19 @@
+<!DOCTYPE html> <!-- set up HTML doc/set file type -->
+<html> <!-- Root of HTML -->
+  <body> <!--container for all other elements of HTML -->
+    
+    <h1>Header 1</h1> <!-- Header tags & Paragraph tag -->
+    <h2 style="color:orange">Header 2</h2> <!-- colour style tag/attribute added within Header tag -->
+        <p style="font-family:courier">Paragraph</p> <!-- amend default font style -->
+        <p style="font-family:arial">Paragraph</p> 
+    <h3>Header 3</h3>
+    <h4 style="background-color:turquoise;">Header 4</h4> <!-- add a background colour to text -->
+    <h5>Header 5</h5> <!-- NOTE: semi-colons aren't required on single attributes though ARE for multiple
+                                 attributes - best practice would be to always insert the ';' semi-colon -->
+    <h6>Header 6</h6>
+    
+    <h1 style="color: orange; background-color: black; text-align: center">Header v1.1</h1>
+    <p>Paragraph 3</p> <!-- example of multiple styles on above header--> 
+    <p> I got <u>tags</u> <i>for <b>daysss</i></b> <del>and days</del> <sup>sup</sup><sub>sub</sub> </p> <!-- nesting tags within tags -->        
+  </body>  <!-- end of HTML body -->
+</html>
