@@ -1,0 +1,47 @@
+#headerOne{
+  font-family:serif; 
+  font-weight: normal; 
+  font-style: italic 
+    /* font family, style & weight */ 
+}
+#headerTwo{
+  font-family:sans-serif; 
+  font-weight: strong; 
+  color:rgb(0,200,100)
+}
+#headerThree{
+  font-family:monospace; 
+  color:#eb34e5 /* hex vs rgb color palettes */
+}
+
+a:link{color:Blue}
+a:hover{color:Green; font-family:courier}
+a:active{color:Yellow}
+a:visited{color:Red}
+
+table{ /* set style for table as a whole */
+  background-color:#fff41c; 
+  font-family:monospace; 
+  text-align:center;
+  border: 5px dashed red; /* set border styling */
+}
+
+
+th{ /* set table header style - overwrites 
+      the above table style on headers */
+  color:rgb(50,150,200); 
+  font-size: 35px;
+  border: 2px dashed orange;
+}
+
+td, p {
+  background-color:orange; 
+  font-size: 25px;
+  } 
+/* set styles for multiple tags at once */
+
+#item6{
+  color: white; 
+  font-style: italic;
+  border: 3px solid red;
+} /* set single table item/cell style */
