@@ -1,0 +1,25 @@
+<!DOCType html>
+<head>
+  
+  <body>
+    <!-- <h1> & <p> styles shown in accompanying CSS doc -->
+
+    <h1> Yawn Hub </h1> 
+    <p> The #1 place to go for absolutely no reason </p>
+
+    <p style="color: white; background-color: grey; 
+              font-family: monospace"> Exhibit A </p>
+    
+    <!-- individual style changes can be made within HTML tag as above 
+         without affecting default styling of CSS doc -->
+    
+    <p> and right back round to CSS defined style again </p>
+    
+    <h1> Yet another heading </h1>
+    
+    <p id="altPara"> another example of ID </p> <!-- id can be called in CSS -->
+    <h1 id="footer"> Thanks for stopping by, <br> come back soon </h>
+    
+  </body>
+  
+</head>
