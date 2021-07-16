@@ -1,0 +1,123 @@
+header{
+  background-color: darkmagenta;
+  opacity: 0.75;
+  display: block; /* center-align title */
+  width: 100%;
+  position: fixed; /* fixed header/menu bar */
+  height: 110px;
+  top: 0;
+  left: 0;
+}
+
+#title{
+  background-color: white;
+  border-radius: 15px; /* round border edges */
+  border-width: 3px;
+  border-color: purple;
+  border-style: dotted;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 40px;  
+  display: block; /* center-align title */
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.body{
+  background-color: rgb(205,205,255);
+  margin-top: 110px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: aliceblue;
+  font-family: tahoma;
+  font-size: 14px;  
+  padding: 30px 30px 30px 30px;
+  /* margin is the space around an element's border, 
+  while padding is the space between an element's border 
+  the element's content*/ 
+}
+
+#subHeading{
+  color:navy;
+  font-size: 20px
+}
+
+blockquote{
+  border-style: double;
+  border-width: 10px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+img.displayed{
+  display:block; /* center-align image */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yellow-color{
+ color: #fff67d; 
+}
+
+.background-blue{
+  background-color: cornflowerblue;
+  padding: 10px 10px 10px 10px;
+}
+
+.large-font{
+  font-size: 20px;
+}
+
+p.emphasis{
+  color: darkviolet; opacity: 0.7; /* opacity of both
+                                text and background */
+  background-color:white;
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px 10px 10px 10px;
+  border-radius:10px;
+  text-align: center;  
+}
+
+#favQuote{
+  border-style: double;
+  border-width: 10px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  background-color: mediumslateblue;
+  color:white;
+  font-size:20px;
+  padding: 15px 15px 15px 15px;
+}
+
+.button{
+  background-color:white;
+  opacity: 0.75;
+  color:black; /* create floating link to top of page */
+  display:block;
+  margin-right: 80px;
+  margin-bottom: 60px;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  position: fixed;
+  width:150px;
+  border-radius:5px
+}
+.button:hover{
+  opacity:1; /* highlight button */
+}
+
+.footer{
+  background-color: indigo;
+  opacity: 0.75;
+  width: 100%;
+  position: fixed; /* fixed footer/menu bar */
+  height: 30px;
+  left: 0;
+  bottom: 0
+}
