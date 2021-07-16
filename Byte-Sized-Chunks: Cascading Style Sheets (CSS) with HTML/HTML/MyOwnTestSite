@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head> <!-- More HTML & CSS examples -->
+    <meta charset="UTF-8"> <!-- Character Set -->
+    <title>HTML and CSS Examples</title>
+    <link type="text/css" rel="stylesheet" href="css/Style.css">
+  <!-- rel= relationship between files, then links to css doc -->
+</head>
+  <div>
+    <a id="top"></a> <!-- anchor to top of page -->
+    <header> 
+      <h1 id="title">
+        Alan Watts
+      </h1>
+    </header>
+  </div>    
+  <body class="body">
+
+    <div>
+      <h4 class="yellow-color background-blue"> <!-- call multiple classes -->
+        <span id="subHeading">British philosopher and writer:</span> 
+        <!-- span defines set area to edit without causing line-break -->
+        <em>Jan 6, 1915 – Nov 16, 1973</em></h4>
+    </div>
+    <div>
+      <p>
+        In the altogether excellent 1951 volume The Wisdom of Insecurity: 
+        A Message for an Age of Anxiety, Watts argues 
+        that the root of our human frustration and daily anxiety is our 
+        tendency to live for the future, which is an abstraction.
+    </div>
+    <div>
+      <blockquote class="yellow-color background-blue large-font">
+        If to enjoy even an enjoyable present we must have the assurance 
+        of a happy future, we are “crying for the moon.” We have no such 
+        assurance. The best predictions are still matters of probability 
+        rather than certainty, and to the best of our knowledge every one 
+        of us is going to suffer and die. If, then, we cannot live happily 
+        without an assured future, we are certainly not adapted to living 
+        in a finite world where, despite the best plans, accidents will 
+        happen, and where death comes at the end.
+      </blockquote>
+    </div>
+    </p>
+  </div>
+  <h4 class="yellow-color large-font">
+    Presence
+  </h4>
+  <img class ="displayed" 
+       src="https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2014/01/alanwatts.jpg?w=680&ssl=1"
+       width=65%> <!-- resize image -->
+  <p>
+        What keeps us from happiness, Watts argues, is our inability to 
+        fully inhabit the present:
+  </p>
+    <div>
+      <blockquote class="yellow-color background-blue large-font">
+        The “primary consciousness,” the basic mind which knows reality 
+        rather than ideas about it, does not know the future. It lives 
+        completely in the present, and perceives nothing more than what 
+        is at this moment. The ingenious brain, however, looks at that 
+        part of present experience called memory, and by studying it is 
+        able to make predictions. These predictions are, relatively, so 
+        accurate and reliable (e.g., “everyone will die”) that the future 
+        assumes a high degree of reality — so high that the present loses 
+        its value.
+        <br>
+        But the future is still not here, 
+        and cannot become a part of experienced reality until it is 
+        present. Since what we know of the future is made up of purely 
+        abstract and logical elements — inferences, guesses, deductions 
+        — it cannot be eaten, felt, smelled, seen, heard, or otherwise 
+        enjoyed. To pursue it is to pursue a constantly retreating 
+        phantom, and the faster you chase it, the faster it runs ahead. 
+        This is why all the affairs of civilization are rushed, why 
+        hardly anyone enjoys what he has, and is forever seeking more 
+        and more. Happiness, then, will consist, not of solid and 
+        substantial realities, but of such abstract and superficial 
+        things as promises, hopes, and assurances.
+      </blockquote>
+    </div>
+  <p class="emphasis">
+      Watts argues that our primary mode of relinquishing presence 
+    is by leaving the body and retreating into the mind — that 
+    ever-calculating, self-evaluating, seething cauldron of thoughts, 
+    predictions, anxieties, judgments, and incessant meta-experiences 
+    about experience itself. Writing more than half a century before 
+    our age of computers, touch-screens, and the quantified self, Watts 
+    admonishes:
+  </p>
+    <div>
+         <blockquote class="yellow-color background-blue large-font">
+           The brainy modern loves not matter but measures, 
+          no solids but surfaces.
+          <br>  […]   <br>
+          The working inhabitants of a modern city are people who live inside 
+          a machine to be batted around by its wheels. They spend their days 
+          in activities which largely boil down to counting and measuring, 
+          living in a world of rationalized abstraction which has little 
+          relation to or harmony with the great biological rhythms and 
+          processes. As a matter of fact, mental activities of this kind can 
+          now be done far more efficiently by machines than by men — so much 
+          so that in a not too distant future the human brain may be an 
+          obsolete mechanism for logical calculation. Already the human 
+          computer is widely displaced by mechanical and electrical computers 
+          of far greater speed and efficiency. If, then, man’s principal 
+          asset and value is his brain and his ability to calculate, he will 
+          become an unsaleable commodity in an era when the mechanical 
+          operation of reasoning can be done more effectively by machines.
+          <br>[…] <br>
+          If we are to continue to live for the future, and to make the 
+          chief work of the mind prediction and calculation, man must 
+          eventually become a parasitic appendage to a mass of clockwork.
+        </blockquote>
+    </div>
+    <p>
+      To be sure, Watts doesn’t dismiss the mind as a worthless or 
+      fundamentally perilous human faculty. Rather, he insists that it 
+      if we let its unconscious wisdom unfold unhampered — like, for 
+      instance, what takes place during the “incubation” stage of 
+      unconscious processing in the creative process — it is our ally 
+      rather than our despot. It is only when we try to control it and 
+      turn it against itself that problems arise:
+    </p>
+    <blockquote id="favQuote">
+      Working rightly, the brain is the highest form of “instinctual 
+      wisdom.” Thus it should work like the homing instinct of pigeons 
+      and the formation of the fetus in the womb — without verbalizing 
+      the process or knowing “how” it does it. The self-conscious 
+      brain, like the self-conscious heart, is a disorder, and 
+      manifests itself in the acute feeling of separation between “I” 
+      and my experience. The brain can only assume its proper behavior 
+      when consciousness is doing what it is designed for: not writhing 
+      and whirling to get out of present experience, but being 
+      effortlessly aware of it.
+    </blockquote>
+    <a href="#top"> <!-- link to top of page -->
+      <h3 class="button">Back To Top</h3>
+    </a>
+    </p>
+    <footer class="footer">
+    </footer>
+  </body>
+</html>
