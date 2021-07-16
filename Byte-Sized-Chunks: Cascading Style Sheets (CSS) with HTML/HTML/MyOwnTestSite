@@ -2,7 +2,7 @@
 <head> <!-- More HTML & CSS examples -->
     <meta charset="UTF-8"> <!-- Character Set -->
     <title>HTML and CSS Examples</title>
-    <link type="text/css" rel="stylesheet" href="css/Style.css">
+    <link type="text/css" rel="stylesheet" href="styleSheet.css">
   <!-- rel= relationship between files, then links to css doc -->
 </head>
   <div>
