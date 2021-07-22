@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <canvas width ="500", width ="300" style="background-color: red">  </canvas>
+    <canvas> </canvas>
+  <canvas id="jsCanvas" width="400" height="100"> </canvas>
   <p>Audio & Video HTML Test</p>
   <audio controls> <!-- add in audio element -->
     <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_OOG_1MG.ogg"
