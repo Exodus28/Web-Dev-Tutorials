@@ -1,0 +1,14 @@
+canvas{
+  background-color: rgba(100,0,250, 0.6);
+  border: 5px solid black;
+}
+
+#jsCanvas3{
+  background-color: white;
+  border: 5px dotted gold;
+}
+
+.defaultCanvas2{
+ background-color: cornflowerblue;
+ border: 7px dashed navy; 
+}
