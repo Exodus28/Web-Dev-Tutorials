@@ -44,7 +44,7 @@ context3.fillStyle = aGradient2; /* always add properties/attributes
                                  these properties included */
 context3.fillRect(0,0,150,150);
 
-/* the below isn't working yet and haven't figured out why... irritating */
+/* the below isn't working yet in JSBin and I haven't figured out why... irritating */
 
 var jsCanvas4 = document.getElementById("jsCanvas4");
 var context4 = jsCanvas4.getContext("2d");
@@ -53,12 +53,7 @@ context4.beginpath();
 context4.arc(50, 50, 50, 0, 2 * Math.PI);
 context4.stroke();
 
-var jsCanvas5 = document.getElementById*("jsCanvas5");
-var context5 = jsCanvas5.getContext("2d");
 
-context5.beginpath();
-context5.arc(50, 50 ,50, 0, 0.35 * Math.PI);
-context5.stroke();
 
 
 
