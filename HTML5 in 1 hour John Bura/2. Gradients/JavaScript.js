@@ -35,5 +35,12 @@ var aGradient2 = context3.createLinearGradient(0,0,70,100,100);
 aGradient2.addColorStop(0, "black");
 aGradient2.addColorStop(1, "green");
 
-context3.fillStyle = aGradient2;
+context3.shadowBlur = 30;
+context3.shadowColor = "black";
+
+context3.fillStyle = aGradient2; /* always add properties/attributes
+                                 above prior to setting fillStyle() &
+                                 fillRect() or it will draw them without
+                                 these properties included */
 context3.fillRect(0,0,150,150);
+
