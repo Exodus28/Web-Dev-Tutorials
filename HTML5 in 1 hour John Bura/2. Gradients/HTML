@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>Canvas Test</p>
+  <canvas width ="500", width ="300" style="background-color: red">  </canvas>
+  <canvas> </canvas>
+  <canvas id="jsCanvas" width="400" height="100"> </canvas>
+  <canvas id="jsCanvas2" width="200" height="200"> </canvas>
+  <canvas id="jsCanvas3" width="200" height="200"> </canvas>
+  
+  <p>Audio & Video HTML Test</p>
+  <audio controls> <!-- add in audio element -->
+    <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_OOG_1MG.ogg"
+            type="audio/ogg"> <!-- sepcify source & then type of file -->
+  </audio>
+  <p></p>
+    <audio controls autoplay muted preload="none"> <!--preload can be set to 'none' or 'auto' -->
+    <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_OOG_2MG.ogg"
+            type="audio/ogg"> 
+  </audio>
+  <p></p>
+  <audio controls autoplay> <!-- autoplay options + muted -->
+    <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_OOG_5MG.ogg"
+            type="audio/ogg"> 
+  </audio>
+  <p></p>
+  <audio controls>
+    <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_WAV_1MG.wav"
+            type="audio/wav"> <!-- ogg, wav & mp3 (mpeg) file types only -->
+  </audio>
+  <p></p>  
+  <video width="400" controls preload ="auto"> <!-- insert video element -->
+    <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_640_3MG.mp4"
+            type="video/mp4">
+  </video>
+  <p></p>  
+  <video controls preload ="metadata"> <!-- insert video element -->
+    <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_640_3MG.mp4"
+            type="video/mp4">
+  </video>  
+</body>
+</html>
 
