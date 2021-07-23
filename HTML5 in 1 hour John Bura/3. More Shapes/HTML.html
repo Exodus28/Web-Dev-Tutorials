@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -11,4 +10,14 @@
   <canvas class = defaultCanvas2 id="jsCanvas4" width="200" height="200"> 
   </canvas>
   <canvas class = defaultCanvas2 id="jsCanvas5" width="200" height="200"> 
-  </canvas>
+    <script>
+      var c = document.getElementById("jsCanvas5");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(100, 75, 50, 0, 0.75 * Math.PI);
+      ctx.stroke();
+    </script> 
+  </canvas> 
+  <!--yet for some reason this works in HTML 
+      with JS Script tag? Possibly just an 
+      issue in JSBin, will need to test further -->
