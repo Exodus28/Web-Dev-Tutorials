@@ -21,11 +21,59 @@
       ctx2.beginPath();
       ctx2.arc(100, 75, 50, 0, 0.75 * Math.PI);
       ctx2.stroke();
-    </script> 
-    
+    </script>     
   </canvas> 
-  <!--yet for some reason this works in HTML 
-      with JS Script tag? Possibly just an 
+  <!-- for some reason this works in HTML 
+      with JS Script tag but not in JS section? Possibly just an 
       issue in JSBin, will need to test further -->
+    
+      <svg>
+        <circle cx="220" cy="50" r="40" 
+                stroke="navy" stroke-width="10" fill="orange"  />
+        <rect width="175" height="125" style="fill:cyan" />
+      </svg>
+  
+          
+      <svg height=200>
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 stroke="black"style="fill:purple; opacity: 0.75" />        
+      </svg>
+  
+        <!-- random doodle -->
+      <svg width="400" height="400">
+        <circle cx="225" cy="150" r="160" stroke="orange" stroke-width="4" 
+                fill="yellow" />        
+        <!-- eyes -->
+        <ellipse cx="145" cy="125" rx="30" ry="75" fill="white"
+                 stroke="black" stroke-width="3" />
+        <ellipse cx="195" cy="130" rx="40" ry="80" fill="white"
+                 stroke="black" stroke-width="3" />
+        <ellipse cx="175" cy="130" rx="20" ry="40" fill="black"
+                 stroke="black" stroke-width="3" />    
+        <ellipse cx="130" cy="125" rx="15" ry="35" fill="black"
+                 stroke="black" stroke-width="3" />   
+        <!-- mouth -->
+        <ellipse cx="160" cy="235" rx="25" ry="35" fill="magenta"
+                 stroke="black" stroke-width="3" />   
+        <ellipse cx="160" cy="258" rx="18" ry="10" fill="red"
+                 stroke="black" stroke-width="2" />   
+        <!-- moustache part 1 -->
+        <ellipse cx="130" cy="220" rx="25" ry="15" fill="black"
+                 stroke="black" stroke-width="3" />   
+        <!-- nose -->        
+        <ellipse cx="150" cy="200" rx="40" ry="25" fill="yellow"
+                 stroke="orange" stroke-width="2" />   
+        <!-- moustache part 2 -->
+        <ellipse cx="175" cy="225" rx="35" ry="15" fill="black"
+                 stroke="black" stroke-width="3" />    
+        <!-- eyebrows -->
+        <ellipse cx="130" cy="20" rx="25" ry="15" fill="black"
+                 stroke="black" stroke-width="3" />     
+        <ellipse cx="220" cy="25" rx="30" ry="15" fill="black"
+                 stroke="black" stroke-width="3" /> 
+        
+      </svg>       
+
+    
   </body>
 </html>
