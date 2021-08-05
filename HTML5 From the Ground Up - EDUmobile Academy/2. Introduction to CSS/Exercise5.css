@@ -19,7 +19,7 @@
 	height: 800px;
 	width: 800px;
 	margin: 50px auto;
-	background-image: url(Exercise5main.png), url(Exercise5sky.png), url(Exercise5sea.png);
-	background-position: left top, left top, left top;
-	background-repeat: no-repeat, repeat-x, repeat-x;
+	background-image: url(Exercise5main.png), url(Exercise5sea.png);
+	background-position: left top, left top;
+	background-repeat: no-repeat, repeat-x; /* don't repeat main image, but repeat sea image across x-axis */
 }
