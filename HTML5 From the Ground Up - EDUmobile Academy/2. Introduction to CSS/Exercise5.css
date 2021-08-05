@@ -16,10 +16,27 @@
 }   
 
 #bigbox3{
+	top: 20px;
+	left: 20px;
 	height: 800px;
 	width: 800px;
 	margin: 50px auto;
 	background-image: url(Exercise5main.png), url(Exercise5sea.png);
-	background-position: left top, left top;
-	background-repeat: no-repeat, repeat-x; /* don't repeat main image, but repeat sea image across x-axis */
+	background-position: left top,  left top;
+	background-repeat: no-repeat, repeat-x; /*don't repeat main image, but repeat sky image across x-axis*/
+	z-index: 1;
+}
+
+#bigbox4{
+	position: absolute;
+	top: 400px;
+	left: 550px;
+	height: 800px;
+	width: 800px;
+	margin:50px auto;
+	background-image: url(Exercise5sky.png);
+	background-position:left top;
+	background-repeat: repeat-x;
+	opacity: 0.25;
+	z-index: 2;
 }
