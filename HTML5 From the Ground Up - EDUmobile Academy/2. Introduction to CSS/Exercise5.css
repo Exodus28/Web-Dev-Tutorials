@@ -14,3 +14,12 @@
 	background-color: green;
 	box-shadow: 16px 8px 5px 5px darkgreen; /*experiment with negative values. e.g. negstive y-value moves box-shadow UP. positve moves DOWN */
 }   
+
+#bigbox3{
+	height: 800px;
+	width: 800px;
+	margin: 50px auto;
+	background-image: url(Exercise5main.png), url(Exercise5sky.png), url(Exercise5sea.png);
+	background-position: left top, left top, left top;
+	background-repeat: no-repeat, repeat-x, repeat-x;
+}
