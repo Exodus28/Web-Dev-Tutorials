@@ -10,7 +10,7 @@
 #bigbox2{
 	height: 100px;
 	width: 150px;
-	margin 50px auto;
+	margin: 50px auto;
 	background-color: green;
 	box-shadow: 16px 8px 5px 5px darkgreen; /*experiment with negative values. e.g. negstive y-value moves box-shadow UP. positve moves DOWN */
 }   
