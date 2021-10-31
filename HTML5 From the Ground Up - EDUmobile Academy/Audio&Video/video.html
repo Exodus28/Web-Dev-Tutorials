@@ -1,0 +1,25 @@
+<!DOCYPE html>
+<html>
+<head>
+	<title> Our first Video in HTML5</title>
+	<style type="text/css" media="screen">
+		body {
+			display: block;
+			width: 1500px;
+			margin: 30px auto;
+		}
+	</style>
+</head>
+<body>
+	<!-- <video src="video.ogv" controls="controls" height="720" width="1280">
+		Your browser does not support OGV
+	</video> -->
+	<video controls="controls" height="720" width="1280">
+		<source src="video.mp4" />
+		<source src="video.ogv" />
+		<source src="video.webm" />
+		<a href="video.mp4" title="video">World</a>
+		Your browser does not support OGV, MP4 or WebM
+	</video>
+</body>
+</html>

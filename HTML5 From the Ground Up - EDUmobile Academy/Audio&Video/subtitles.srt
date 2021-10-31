@@ -1,0 +1,7 @@
+1
+00:00:05.000 --> 00:00:15.000
+Here are some example subtitles
+
+2
+00:00:20.000 --> 00:00:30.000
+The world turns slowly 
