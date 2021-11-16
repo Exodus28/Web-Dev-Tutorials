@@ -1,0 +1,55 @@
+.jumbotronText {
+	text-align: center;
+	background-image: url('../images/hero_image.jpg');
+}
+
+.jumbotronText p{
+	color: black;
+	margin-bottom: 30px;
+}
+
+.jumbotronText h1{
+	font-family: 'Arvo', serif;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.btn-lg{
+	font-size: 1.75rem;
+}
+
+ul.navbar-nav{
+	font-family: 'Arvo', serif;
+}
+
+.homepage{
+	text-align: center;
+	background-color: #f5f5f5;
+}
+
+.homepage h2, .homepage h3{
+	color: #e74c3c; 
+	font-family: 'Arvo', serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.homepage h2{
+	font-size: 30px;
+}
+
+.homepage h3{
+	font-size: 26px;
+}
+
+.homepage p{
+	font-size: 21px;
+}
+
+.homepage a{
+	font-size: 16px;
+	color: #e74c3c; 
+}
