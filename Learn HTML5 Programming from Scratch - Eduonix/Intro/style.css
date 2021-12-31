@@ -137,3 +137,12 @@ img {
     animation: moveBox 5s 3;
 
 }
+
+html {
+    /*
+    background-image: url(images/code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+    background-image: linear-gradient(to right, blue, green, yellow, red, purple);
+}
