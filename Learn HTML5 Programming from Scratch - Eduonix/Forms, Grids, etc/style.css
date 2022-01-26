@@ -1,0 +1,171 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 4px 4px 2px salmon;
+}
+
+.title {
+    color: rgb(255, 145, 0);
+}
+
+#italic {
+    color: rgb(255, 230, 0);
+    font-size: 16px;
+}
+
+nav {
+    background-color:blueviolet;
+    text-align: center;
+}
+
+.nav-wrapper {
+    background-color: purple;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.container {
+    border: 5px solid grey;
+    margin: 50px;
+    padding: 20px 15%;
+}
+
+.box {
+    /* display: inline-block; */
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+}
+
+.circleImg {
+    border-radius: 50%;
+}
+
+img {
+    box-shadow: 15px 5px 8px darkgrey;
+}
+
+.flex {
+    border: 3px solid black;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@keyframes fadeMe {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#box1 {
+    animation-name: fadeMe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#box2 {
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: 7;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, purple, green, blue, purple)
+}
+
+@keyframes enlarge {
+    0% {transform: scale(1);}
+    33% {transform: scale(2);}
+    66% {transform: scale(.5);}
+    100% {transform: scale(1);}
+}
+#box3 {
+    animation: enlarge 6s 5 ease-in;
+    border-radius: 50%;
+    background: orange;
+    width: 100px;
+}
+
+@keyframes changeColor {
+    0% {background-color: red;}
+    25% {background-color: purple;}
+    50% {background-color: grey;}
+    75% {background-color: green;}
+    100% {background-color: yellow;}
+}
+
+#box4 {
+    animation: changeColor 4s 6 forwards;
+}
+
+@keyframes moveBox {
+    0% {left: 0px; top: 0px;}
+    25% {left: 100px; top: 0px;}
+    50% {left: 100px; top: 200px;}
+    75% {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}
+
+#box5 {
+    position: relative;
+    background: indigo;
+    animation: moveBox 5s 3;
+
+}
+
+html {
+    /*
+    background-image: url(images/code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: linear-gradient(to right, blue, green, yellow, red, purple);
+    */
+}
+
+form input, textarea, button{
+    display: block;
+    margin: 30px;
+}
+
+.contact-box{
+ display: flex;
+ justify-content: center;
+}
+
+.row {
+    margin: 30px;
+}
+
+.input-field {
+    margin: 20px;
+}
