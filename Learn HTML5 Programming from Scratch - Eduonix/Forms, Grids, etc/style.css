@@ -169,3 +169,64 @@ form input, textarea, button{
 .input-field {
     margin: 20px;
 }
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 20% ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: white;
+    color: #444;
+  }
+
+  .square {
+    background-color: white;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
+  }
+
+  .a {
+    grid-column: col / span  2;
+    grid-row: row ;
+    display: flex;
+    justify-content: center;
+  }
+  .b {
+    grid-column: col 4 / span  2 ;
+    grid-row: row ;
+    display: flex;
+    justify-content: center;
+  }
+  .c {
+    grid-column: col / span 5;
+    grid-row: row 2 ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(purple, yellow,red);
+  }
+  .d {
+    grid-column: col / span 2 ;
+    grid-row: row 3 ;
+    display: flex;
+    justify-content: center;
+  }
+
+  .e {
+    grid-column: col 3 / span  3;
+    grid-row: row 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .f {
+    grid-column: col 2 / span 3;
+    grid-row: row 2  ;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(49,121,207, 0.5);
+    z-index: 20;
+    background-image: linear-gradient(red, yellow, purple);
+  }
