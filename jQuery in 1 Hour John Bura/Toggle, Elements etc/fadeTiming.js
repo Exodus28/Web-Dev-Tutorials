@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#button1").click(function(){
-    $(".fadeTag").fadeOut("slow");
+    $("h1").fadeOut("slow");
+    $("h2").fadeOut(4000);
 
   });
   
