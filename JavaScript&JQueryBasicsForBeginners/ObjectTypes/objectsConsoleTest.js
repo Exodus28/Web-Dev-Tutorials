@@ -22,3 +22,10 @@ bankAccount.deposit(20)
 undefined
 bankAccount.balance
 120
+
+
+
+var b = new BankAccount("Jake", "Current")
+undefined
+b
+BankAccount {owner: 'Jake', type: 'Current', balance: 0, withdraw: ƒ, deposit: ƒ}
