@@ -9,7 +9,12 @@
             title.innerText = "new title";
         }
         function test2(){
-            
+            var ul = document.getElementsByTagName('ul')[0];
+            var li = document.createElement('li');
+            var node = document.createTextNode('List element 4');
+            li.appendChild(node);
+
+            ul.appendChild(li);
         }
     </script>
 </head>
