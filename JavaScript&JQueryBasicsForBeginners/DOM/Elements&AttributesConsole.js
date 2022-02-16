@@ -8,3 +8,7 @@ document.getElementsByClassName('paragraph')[1]
 <p class=​"paragraph">​Paragraph text 2​</p>​
 document.getElementsByTagName('ul')
 HTMLCollection [ul]0: ullength: 1[[Prototype]]: HTMLCollection
+var ul = document.getElementsByTagName('ul')[0]
+undefined
+ul.getElementsByTagName('li')[2]
+<li>​…​</li>​::marker​"List element 3"</li>​
