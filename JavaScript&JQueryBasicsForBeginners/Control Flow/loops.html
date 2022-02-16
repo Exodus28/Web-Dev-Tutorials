@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        //while loop
+        var x = 1;
+        while (x <= 10) {           //whilst less than or equal to ten
+            document.write(x);      //write value of x
+            document.write("</br>");//create new line after printing value of x
+            x += 1;                 //increment x by 1, return to top of loop
+        }
+        
+        //do while loop - guarantees the body of code will execute at least once, 
+        //but with the while loop there's no such guarantee
+        var x = 10;
+        do {
+            document.write(x + ", ");
+            x -= 1;
+        } while (x > 1);
+        
+        // before loop entered (x = 1;) 
+        // x <=10; condition we're checking
+        // x++ happens each time exiting the body of the for loop
+        for (x = 1; x <= 10; x++) {
+            document.write(x);      
+            document.write("</br>");
+        }
+
+        //set up array
+        var a = [5,2,7,1];
+        //set up variable i
+        var i;
+        //set i to 0, execute loop whilst i's value is less than a's length, then increment i
+        for (i = 0; i < a.length; i++) {
+            //write a item i, loop body concludes, i is incremented, loop back through
+            document.write(a[i] + ", "); 
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
