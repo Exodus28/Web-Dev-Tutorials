@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script type="text/javascript">
+        var resultElements;
+
+        function setDefaultText() { // make resultElements appear on-screen 
+            var i;
+            for (i = 0; i < resultElements.length; i++) { // loop over each result element
+                var element = resultElements[i]; //reference the specific element itself
+                element.innerText = element.getAttribute('function') + "(x) = "; //pull custom function attribute from <p> tag
+            }
+        }
+
+        function getUserInput() {
+            return 1;
+        }
+
+        function calculateResults() { //set function for getting value of 'x'
+            try {
+                var x = getUserInput();
+            } catch(e) { //if input returs error, display on-page
+                alert("Error: " + e);
+                return;
+            }
+
+            setDefaultText(); //call this again to prevent text keep adding
+
+            var i;
+            for (i = 0; i < resultElements.length; i++) { 
+                var element = resultElements[i];
+                var functionName = element.getAttribute('function');//set functionName from function attribute in <p> tag 
+                var func = Math[functionName]; //because Math.sin is the same as Math['sin'] we can call the functionName var to pull the function attribute
+                var result = func(x); //calculate the func of 'x'
+                //lastly, below declare element to update by once again printing itself and then + the result, so the initial text doesn't vanish
+                element.innerText = element.innerText + " " + result;
+            }
+
+        }
+
+
+
+        window.onload = function() {
+            resultElements = document.getElementsByClassName('result'); //set var to <p> class attribute
+            setDefaultText(); //print default text on page load
+            document.getElementById('btnCalculate').addEventListener('click', calculateResults); //tie button to function
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <h1>Function calculator</h1>
+    x = <input type="text" id="userInput"></input>
+    <button id="btnCalculate">Calculate</button>
+
+    <br>
+    <br>
+
+    <p class="result" function="sin"></p>
+    <p class="result" function="cos"></p>
+
+</body>
+
+</html>
