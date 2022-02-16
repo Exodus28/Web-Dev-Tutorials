@@ -14,8 +14,19 @@
             }
         }
 
-        function getUserInput() {
-            return 1;
+        function getUserInput() { //get user input
+            var rawValue = document.getElementById('userInput').value.trim(); //trim removes any leading or trailing spaces from the string
+            
+            if (rawValue.length == 0) {
+                throw "You must enter a number"
+            }
+
+            var num = Number(rawValue);
+            if (isNaN(num)) { //check if num nalue is NaN
+                throw rawValue + " is not a number"
+            }
+
+            return num;
         }
 
         function calculateResults() { //set function for getting value of 'x'
@@ -62,6 +73,8 @@
 
     <p class="result" function="sin"></p>
     <p class="result" function="cos"></p>
+    <p class="result" function="tan"></p>
+    <p class="result" function="log"></p>
 
 </body>
 
