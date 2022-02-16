@@ -6,3 +6,5 @@ document.getElementsByClassName('paragraph')[0]
 <p class=​"paragraph">​Paragraph text 1​</p>​
 document.getElementsByClassName('paragraph')[1]
 <p class=​"paragraph">​Paragraph text 2​</p>​
+document.getElementsByTagName('ul')
+HTMLCollection [ul]0: ullength: 1[[Prototype]]: HTMLCollection
