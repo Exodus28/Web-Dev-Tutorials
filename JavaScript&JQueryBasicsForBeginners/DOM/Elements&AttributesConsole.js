@@ -12,3 +12,19 @@ var ul = document.getElementsByTagName('ul')[0]
 undefined
 ul.getElementsByTagName('li')[2]
 <li>​…​</li>​::marker​"List element 3"</li>​
+var p = document.getElementsByClassName('paragraph')[0]
+undefined
+p
+<p class=​"paragraph">​Paragraph text 1​</p>​
+p.innerText
+'Paragraph text 1'
+p.tagName
+'P'
+p.getAttribute
+ƒ getAttribute() { [native code] }
+p.getAttribute('class')
+'paragraph'
+document.getElementsByTagName('input')[0]
+<input type=​"text">​
+document.getElementsByTagName('input')[0].value
+'qwerty'
