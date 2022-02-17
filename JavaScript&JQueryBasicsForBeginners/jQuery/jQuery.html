@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+</head>
+	
+<body>
+	
+	<h1 id="title">title</h1>
+	
+	<p class="paragraph">Paragraph text 1</p>
+	<p class="paragraph" custom="test">Paragraph text 2</p>
+	
+	<input type="text" custom="test"></input>
+	
+	<ul>
+		<li>List element 1</li>
+		<br>
+		<li>List element 2</li>
+		<br>
+		<li class="paragraph">List element 3</li>
+		<br>
+		<li custom="test2">List element 4</li>
+		<br>
+		<li>List element 5</li>
+	</ul>
+	<ul>
+		<li>List element 1</li>
+		<br>
+		<li custom="test">List element 2</li>
+		<br>
+		<li>List element 3</li>
+		<br>
+		<li>List element 4</li>
+		<br>
+		<li>List element 5</li>
+	</ul>
+
+	<script>
+		$("li").css("outline", "1px solid red"); //$ is jquery 'function' & in brackets, selector to identify <p> or <li> for example
+		$("#title").css("color", "red"); //to select by id use #
+		$(".paragraph").css("background-color", "yellow"); //use .classname to select class
+		$("ul .paragraph").css("background-color", "orange"); //select a class item only within a specific element
+		$("ul li:last").css("outline", "2px dashed blue");//selected the last li of the last list
+		$("ul li:first-child").css("outline", "3px dotted purple");//selected the first li of both lists			
+		$("ul li:odd").css("font-weight", "bold");//select 'odd' numbers, (but affects even numbers on the page due to arrays starting from zero)
+		$("ul li:even").css("font-size", "24px");//selected the 'even' numbers, but as above, affects odd on page
+		$("[custom]").css("background-color", "grey");//use brackets [] to select any attribute regardless of it's value
+		$("ul [custom!='test']").css("color", "green"); //this should mean anything that does NOT have an attribute of Custom called 'test2' will display green,
+														//though for some reason it is displaying all text as green regardless until i add 'ul' beforehand, which
+														//as far as i understand, should only affect those within ul tags, but currently affects the rest of the page too it seems
+	</script>
+
+</body>
+
+</html>
