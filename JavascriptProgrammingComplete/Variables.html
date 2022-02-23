@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <script type="text/javascript">
+
+    </script>
+</head>
+
+<body>
+
+    <h1 id="title">title</h1>
+    
+    <input id="myInput" type="text" placeholder="Type here"></input>
+    <button id="button">Click</button>
+    <div id="1stDiv">this is some text</div>
+
+    <script type="text/javascript">
+
+        var name;
+
+        document.getElementById("button").onclick=function() {
+            name=document.getElementById("myInput").value;
+            document.getElementById("1stDiv").innerHTML=name;
+        }
+    </script>
+
+</body>
+
+</html>
