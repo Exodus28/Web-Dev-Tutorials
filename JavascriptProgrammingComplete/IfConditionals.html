@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <script type="text/javascript">
+
+    </script>
+</head>
+
+<body>
+
+    <h1 id="title">title</h1>
+    
+    <input id="weather" type="text" placeholder="Type here"></input>
+    <button id="button">Submit</button>
+
+    <script type="text/javascript">
+
+        var x=1, y=2;
+
+        if(x==1) {
+            alert("working");
+        }
+        else{
+            alert("not working");
+        } 
+
+        document.getElementById("button").onclick=function(){
+            if(document.getElementById("weather").value=="rain") {
+                alert("it is raining");
+            }
+            else{
+                alert("it is not raining");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
