@@ -1,14 +1,18 @@
-/* document.onclick=function(){
-    alert("you clicked the page");
-}
- */
-
 window.onload=function(){
     eventhandler();
+    show();
 }
 
-function eventhandler(){
+document.getElementById("dataBlock").style.display="none"; //set default view
 
+function eventhandler(){
+   
+    function message() {
+        alert("3 second alert is on");
+    }
+    setTimeout(message,3000);
+
+    
     //get image
 
     var image = document.getElementById("mainImage");
@@ -37,27 +41,19 @@ function eventhandler(){
         alert("you clicked the image");
         clearInterval(intervalHandler); //clear the timer 
     }
-    
-    var textField = document.getElementById("textField");
 
-    textField.onblur = function() {
-        if (textField.value == "") {
-            textField.value = "Type here";
+
+}
+
+function show(){
+    document.getElementById("select").onclick = function(){ //when clicked, do this
+        if(document.getElementById("select").checked){ //if element is checked
+            document.getElementById("dataBlock").style.display="block"; //display as block
         }
-    }
-
-    textField.onfocus = function() {
-        if (textField.value == "Type here") {
-            textField.value = "";
+        else {
+            document.getElementById("dataBlock").style.display="none"; //otherwise don't
         }
-    }
-
-    function message() {
-        alert("3 second alert is on");
-    }
-    setTimeout(message,3000);
-
-
+    };
 }
 
 
