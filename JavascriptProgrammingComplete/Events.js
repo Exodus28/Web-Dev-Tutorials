@@ -3,6 +3,10 @@
 }
  */
 
+window.onload=function(){
+    eventhandler();
+}
+
 function eventhandler(){
 
 
@@ -11,8 +15,28 @@ function eventhandler(){
     image.onclick=function(){
         alert("you clicked the image");
     }
+    
+    var textField = document.getElementById("textField");
+
+    textField.onblur = function() {
+        if (textField.value == "") {
+            textField.value = "Type here";
+        }
+    }
+
+    textField.onfocus = function() {
+        if (textField.value == "Type here") {
+            textField.value = "";
+        }
+    }
+
+
+    function message() {
+        alert("3 second alert is on");
+    }
+    setTimeout(message,3000);
+
 }
 
-window.onload=function(){
-    eventhandler();
-}
+
+
