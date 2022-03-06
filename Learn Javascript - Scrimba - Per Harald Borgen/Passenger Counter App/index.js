@@ -1,42 +1,22 @@
-// document.getElementById("count").innerText = 5
+// 1. Grab the save-el paragrah and store it in a variable called saveEl
+let countEl = document.getElementById("count-el")
+let count = 0
 
-// let count = 5
-// count = count + 1
-// console.log(count)
+let saveEl = document.getElementById("save-el")
 
-// Create a variable, bonusPoints. Initialize it as 50. Increase it to 100.
-// Decrease it down to 25, and then finally increase it to 70
-// Console.log the value after each step
-
-let bonusPoints = 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 45
-console.log(bonusPoints)
-
-
-let lapsCompleted = 0
-
-// Create a function that increments the lapsCompleted variable with one
-
-function incrementLap(){
-    lapsCompleted++
+function increment() {
+    count += 1
+    countEl.innerText = count
 }
 
-// Run it three times
-
-incrementLap()
-incrementLap()
-incrementLap()
-
-
-console.log(lapsCompleted)
-
+function save() {
+    // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
+    let saveCount = count + " - "
+    
+    // 3. Render the variable in the saveEl using innerText
+    saveEl.innerText += " " + saveCount
+    // NB: Make sure to not delete the existing content of the paragraph
+    console.log(count)
+}
 
 
