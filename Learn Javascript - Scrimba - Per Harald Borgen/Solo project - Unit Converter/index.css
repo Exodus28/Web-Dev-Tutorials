@@ -23,10 +23,17 @@ h1
     opacity: 50%;
 }
 
-button 
+#submit 
 {
     opacity: 75%;
     background-color: navy;
+    color: white;
+}
+
+#reset
+{
+    opacity: 75%;
+    background-color: darkred;
     color: white;
 }
 
