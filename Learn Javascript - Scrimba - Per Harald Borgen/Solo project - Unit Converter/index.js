@@ -20,7 +20,7 @@ function convert(){
         
     }
     else{
-        let charLimit = 7;
+        let charLimit = 5;
         
         let lengthStr = lengthImp.toString()
         let volumeStr = volumeImp.toString()
@@ -34,4 +34,12 @@ function convert(){
         volume.textContent = (inputNo.value + " " + "litres is equal to " + trimVolumeStr + " gallons")
         mass.textContent = (inputNo.value + " " + "kilograms is equal to " + trimMassStr + " pounds")
     }
+}
+
+
+function revert() {
+        inputNo.value = ""
+        length.textContent = ""
+        volume.textContent = ""
+        mass.textContent = ""  
 }
