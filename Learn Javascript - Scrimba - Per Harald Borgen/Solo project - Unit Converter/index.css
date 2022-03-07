@@ -8,8 +8,8 @@ html, body
 
 h1
 {
-        padding:1rem;
-     font-size: 1.5rem;
+    padding:1rem;
+    font-size: 1.5rem;
 }
 
 #number
@@ -19,8 +19,15 @@ h1
     margin: 5%;
     padding: 2%;
     text-align: center;
-    width: 50%;
+    width: 60%;
     opacity: 50%;
+}
+
+button 
+{
+    opacity: 75%;
+    background-color: navy;
+    color: white;
 }
 
 p 
